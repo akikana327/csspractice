@@ -1,0 +1,49 @@
+.flex {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  color: blue;
+}
+
+.left{
+  font-size: 30px;
+}
+
+.right{
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+.box {
+  margin: 10px 20px;
+}
+
+.text{
+  display: flex;
+  margin-top: 300px;
+  margin-left: auto;
+  font-size: 50px;
+}
+
+.relative {
+  position: relative;
+  top: 0px;
+}
+
+.blue{
+  position: relative;
+  top: 0px;
+  left: 0px;
+  background-color: blue;
+  height: 150px;
+  width: 950px;
+}
+
+.img{
+  position: absolute;
+  top: -275px;
+  right: 0px;
+  width: 600px;
+  height: 350px;
+}
